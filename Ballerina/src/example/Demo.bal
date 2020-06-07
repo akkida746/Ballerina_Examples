@@ -14,4 +14,7 @@ public function main() {
 
     string[] names1 = getNames();
     io:print(names1);
+
+    io:println();
+    io:println("Answer: ", foo(10,getFunctionPointer()));
 }
